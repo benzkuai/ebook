@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj
+END
+BookDrawThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookDrawThread.java
+END
+BookChapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookChapter.java
+END
+BookMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookMark.java
+END
+BookBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookBlock.java
+END
+BookViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookViewPagerAdapter.java
+END
+BookPageMapParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookPageMapParam.java
+END
+BookActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookActivity.java
+END
+WelcomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/WelcomeActivity.java
+END
+BookService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookService.java
+END
+BookChapterInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookChapterInfo.java
+END
+BookDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookDirectory.java
+END
+BookFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookFactory.java
+END
+BookRecommend.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookRecommend.java
+END
+BookAbout.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookAbout.java
+END
+BookView.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookView.java
+END
+WelcomeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/WelcomeView.java
+END
+BookPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookPage.java
+END
+BookSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookSetting.java
+END
+BookExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookExchange.java
+END
+BookSurfaceView.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/bks/!svn/ver/24/branches/yijing/src/org/benzkuai/xqj/BookSurfaceView.java
+END

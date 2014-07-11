@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sys_name">神器系列</string>
+    <string name="sub_sys_name">--阅读器</string>
+    <string name="app_name">易经</string>
+    <string name="book_name">《易经》目录</string>
+    <string name="read_tip">已阅读:</string>
+    <string name="percent">%</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="not_select">亲，你没选择任何章节哦！</string>
+
+    <string name="cover">这是封面--《易经》</string>
+    <string name="back_cover">这是封底--《易经》</string>
+
+    <string name="directory">本书目录</string>
+    <string name="setting">设置</string>
+    <string name="exchange">私人定制</string>
+    <string name="auto_close">手动翻页</string>
+    <string name="seconds">秒</string>
+    <string name="auto_open">自动翻页</string>
+    <string name="update">更新</string>
+    <string name="response">客服通道</string>
+    <string name="gold_house">游戏游戏</string>
+
+    <string name="about">关于</string>
+    <string name="about_ok">OK</string>
+    <string name="about_app_version">软件版本:</string>
+    <string name="about_book_info">原著:《易经》</string>
+    <string name="about_function">功能简介:</string>
+    <string name="about_func_1">(1) 全书目录</string>
+    <string name="about_func_2">(2) 自动翻页(可设置时间)</string>
+    <string name="about_func_3">(3) 自动记录阅读位置</string>
+    <string name="about_func_4">(4) 设置字体大小</string>
+    <string name="about_func_5">(5) 私人定制</string>
+    <string name="about_func_6">(6) 客服通道</string>
+    <string name="about_copyright">版权声明:文字及图片均来自网络，正式阅读请购买正版</string>
+    <string name="about_app_author">软件作者:benzkuai(QQ:820332620)</string>
+
+    <string name="your_order">你可以定制电子书了！ 只要你告诉我们你想要的电子书，我们可为你私人定制！可以通过“客服通道”提交你的需求!</string>
+    <string name="button_exchange">兑换</string>
+
+    <string name="st_font_size">字体大小</string>
+    <string name="st_auto_time">自动翻页时间间隔（单位:秒）</string>
+
+    <string name="good_title"></string>
+    <string name="enter">点击进入正文...</string>
+
+    <string name="good_1">●读过一本好书，像交了一个益友。\n\n\n              [- -臧克家] </string>
+    <string name="good_2">●阅读一本不适合自己阅读的书，比不阅读还要坏。我们必须会这样一种本领，选择最有价值、最适合自己所需要的读物。\n\n\n              [- -别林斯基]</string>
+    <string name="good_3">●久物之味，久则可厌；读书之味，愈久愈深。  \n\n\n              [- -程颐] </string>
+    <string name="good_4">●生活里没有书籍，就好像没有阳光；智慧里没有书籍，就好像鸟儿没有翅膀。  \n\n\n              [- -莎士比亚]</string>
+    <string name="good_5">●读书愈多，精神就愈健壮而勇敢。 \n\n\n              [- -高尔基] </string>
+    <string name="good_6">●读书在于造成完全的人格。 \n\n\n              [- -培根]</string>
+    <string name="good_7">●和书籍生活在一起，永远不会叹气。 \n\n\n              [- -罗曼·罗兰]</string>
+    <string name="good_8">●一本新书像一艘船，带领我们从狭隘的地方，驰向无限广阔的生活的海洋。 \n\n\n              [- -凯勒]</string>
+</resources>

@@ -1,0 +1,38 @@
+package org.benzkuai.xqj;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Administrator
+ * Date: 14-1-25
+ * Time: 下午11:33
+ * To change this template use File | Settings | File Templates.
+ */
+public class BookRecommend {
+    private Context m_context = null;
+
+    public BookRecommend(Context context) {
+        m_context = context;
+    }
+
+    public void show()
+    {
+        LayoutInflater layout = LayoutInflater.from(m_context);
+        View view = layout.inflate(R.layout.recommend, null);
+
+        String title = m_context.getString(R.string.recommend) + m_context.getString(R.string.sub_sys_name);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(m_context);
+        builder.setIcon(R.drawable.ico3);
+        builder.setTitle(title);
+//        builder.setMessage();
+
+        builder.setView(view);
+        builder.setPositiveButton(R.string.confirm, null);
+        builder.show();
+    }
+}

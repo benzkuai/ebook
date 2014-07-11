@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/AppOffer_2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bmob_v2.2.7beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/o2omobi_SDK_V1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/YoumiSdk_v4.06_2013-11-18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/OtomodSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

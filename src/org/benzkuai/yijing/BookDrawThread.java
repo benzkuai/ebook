@@ -1,0 +1,43 @@
+package org.benzkuai.yijing;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Administrator
+ * Date: 14-1-31
+ * Time: 上午10:56
+ * To change this template use File | Settings | File Templates.
+ */
+public class BookDrawThread extends Thread implements Runnable {
+    private BookSurfaceView m_surfaceView = null;
+    private boolean m_exit = false;
+
+    public BookDrawThread(BookSurfaceView surfaceView) {
+        super();    //To change body of overridden methods use File | Settings | File Templates.
+        m_surfaceView = surfaceView;
+    }
+
+    @Override
+    public void run() {
+        while (!m_exit)
+        {
+            m_surfaceView.draw();
+            try
+            {
+                sleep(10);//10ms刷新一次UI
+            } catch (InterruptedException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+        }
+
+    }
+
+    public void exit()
+    {
+        m_exit = true;
+        try {
+            sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+}

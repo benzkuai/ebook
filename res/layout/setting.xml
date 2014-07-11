@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_font_size"
+            android:id="@+id/id_textView_font"
+            android:textColor="#862300"
+            android:layout_gravity="left"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:id="@+id/id_imageView_font"
+            android:layout_gravity="center"
+            android:src="@drawable/t_bg2"
+            android:scaleType="fitXY"/>
+    <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_numberPicker_font"
+            android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/st_auto_time"
+        android:id="@+id/id_textView_auto"
+        android:textColor="#862300"
+        android:layout_gravity="left"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:id="@+id/id_imageView_auto"
+            android:layout_gravity="center"
+            android:src="@drawable/t_bg2"
+            android:scaleType="fitXY"/>
+    <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_numberPicker_auto"
+            android:layout_gravity="center"/>
+
+</LinearLayout>

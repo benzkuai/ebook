@@ -1,0 +1,60 @@
+package org.benzkuai.xqj;
+
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.widget.Toast;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Administrator
+ * Date: 14-2-5
+ * Time: 下午2:13
+ * To change this template use File | Settings | File Templates.
+ */
+public class BookDirectory extends Object {
+    private BookActivity m_activity = null;
+
+    private int m_chapterNumber = 0;
+    public BookDirectory(BookActivity activity) {
+        super();    //To change body of overridden methods use File | Settings | File Templates.
+        m_activity = activity;
+    }
+
+    public void show()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(m_activity);
+        builder.setTitle(R.string.book_name);
+        //
+        builder.setSingleChoiceItems(m_activity.getDirectory(), -1, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                m_chapterNumber = which;
+            }
+        });
+        builder.setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //
+                if (m_chapterNumber >= 0)
+                {
+                    m_activity.gotoChapter(m_chapterNumber + 1);//章的索引从1开始，这里加1.
+                }
+                else
+                {
+                    Toast.makeText(m_activity.getBaseContext(), R.string.not_select, 1).show();
+                }
+
+                m_activity.continueSomething();
+
+            }
+        });
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                m_activity.continueSomething();
+            }
+        });
+        builder.show();
+    }
+
+}

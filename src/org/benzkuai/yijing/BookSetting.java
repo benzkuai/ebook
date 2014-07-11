@@ -1,0 +1,81 @@
+package org.benzkuai.yijing;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.*;
+
+import java.util.ArrayList;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Administrator
+ * Date: 14-1-25
+ * Time: 下午10:57
+ * To change this template use File | Settings | File Templates.
+ */
+public class BookSetting  implements NumberPicker.OnValueChangeListener{
+    private BookActivity m_activity = null;
+
+    public BookSetting(BookActivity activity) {
+        m_activity = activity;
+    }
+
+    public void show()
+    {
+        try
+        {
+            LayoutInflater layout = LayoutInflater.from(m_activity);
+            View view = layout.inflate(R.layout.setting, null);
+
+            String title = m_activity.getString(R.string.setting);
+            AlertDialog.Builder builder = new AlertDialog.Builder(m_activity);
+//            builder.setIcon(R.drawable.ico3);
+            builder.setTitle(title);
+            builder.setView(view);
+
+            // font
+           final NumberPicker numberPickerFont = (NumberPicker)view.findViewById(R.id.id_numberPicker_font);
+            numberPickerFont.setMinValue(20);
+            numberPickerFont.setMaxValue(80);
+            numberPickerFont.setValue(m_activity.getFontSize());
+            numberPickerFont.setOnValueChangedListener(this);
+
+            // auto
+            final NumberPicker numberPickerAuto = (NumberPicker)view.findViewById(R.id.id_numberPicker_auto);
+            numberPickerAuto.setMinValue(5);
+            numberPickerAuto.setMaxValue(120);
+            numberPickerAuto.setValue(m_activity.getAutoTime());
+            numberPickerAuto.setOnValueChangedListener(this);
+
+            builder.setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which)
+                {
+                    m_activity.setSetting(numberPickerFont.getValue(), numberPickerAuto.getValue());
+                    m_activity.continueSomething();
+                }
+            });
+            builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    m_activity.continueSomething();
+                }
+            });
+            builder.show();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
+        //To change body of implemented methods use File | Settings | File Templates.
+        Log.d("k1", "1");
+    }
+}
